@@ -5,7 +5,7 @@
     "license": "GPLv3",
     "authors": [
         {
-            "name": "Pau",
+            "name": "Pau Iglesias",
             "email": "pauiglesias@gmail.com"
         }
     ],
@@ -16,4 +16,10 @@
             "Sooprema\\APISDK": "src/"
         }
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sooprema/sooprema-api"
+        },
+	]
 }
