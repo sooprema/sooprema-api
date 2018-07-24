@@ -1,10 +1,10 @@
 <?php
 
-// Load configuration
+// Load custom API configuration
 $config = include __DIR__.'/config.php';
 
-// Sooprema main class
-require_once __DIR__.'/src/sooprema/api-sdk/sooprema-api.php';
+// Sooprema main API client class
+require_once __DIR__.'/src/sooprema/api-sdk/client.php';
 
-// API instance
-$soopremaAPI = new SoopremaAPI($config);
+// API client instance
+$soopremaAPI = new \Sooprema\APISDK\Client($config);
