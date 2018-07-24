@@ -1,0 +1,19 @@
+{
+    "name": "sooprema/api-sdk",
+    "description": "Sooprema Frontend API SDK",
+    "type": "library",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Pau",
+            "email": "pauiglesias@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "Sooprema\\APISDK": "src/"
+        }
+    },
+}
