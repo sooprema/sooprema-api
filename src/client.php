@@ -1,12 +1,15 @@
 <?php
 
+// Subpackage namespace
+namespace Sooprema\APISDK;
+
 /**
- * Sooprema API class
+ * Client class
  *
  * @package Sooprema
  * @subpackage API-SDK
  */
-class SoopremaAPI {
+class Client {
 
 
 
